@@ -1,0 +1,387 @@
+/*header*/
+.menu>li.active a{
+	border-bottom:solid 3px #ffd102;
+}
+
+#bs_layout_container{
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+}
+#bs_layout_container>div{
+	border: 1px solid #aaa;
+	border-top: none;
+}
+.header{
+	overflow: hidden;
+	width: 841px;
+	margin: 0 auto;
+	padding: 25px 0 50px 0;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+.header ul a{
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+.header ul li{
+	width: 150px;
+	color: #1c3e58;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.header .logo{
+	text-align: center;
+}
+.header .logo a{
+	background: url("../images/logo.png");
+	display:inline-block;
+	width: 144px;
+	height: 32px;
+	position: relative;
+	top:27px;
+}
+
+.footer{
+	background: #1C3E58;
+	overflow: hidden;
+	height: 80px;
+}
+/*
+Copyright (c) 2011,Beisen Inc. All rights reserved.
+http://www.beisen.com
+version: 1.0
+author: liubo
+*/
+html{color:#000}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,
+img,
+iframe{border:0}
+:focus{outline:0}
+address,
+pre,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var{font-weight:normal;font-style:normal}
+ol,
+ul{list-style:none;}
+li{list-style:none}
+caption,
+th{text-align:left}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after{content:''}
+abbr,
+acronym{border:0;font-variant:normal}
+/* to preserve line-height and selector appearance */
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,
+textarea,
+pre,
+select{font-family:inherit;font-size:inherit;font-weight:inherit; vertical-align:middle;margin:0;color: #666;}
+
+/*to enable resizing for IE*/
+input,
+textarea,
+select{*font-size:100%}
+/*because legend doesn't inherit in IE */
+legend{color:#000}
+
+.bs_content .well h2,
+.bs_content .well .lead {
+	font-size: 36px;
+}
+.bs_content .well .lead {
+	font-weight:bold;
+}
+
+.bfc {display:block; overflow:hidden; zoom:1; word-break:break-all;}
+.footera{
+	padding: 28px 100px;
+}
+.footera .logo{
+	background: url("../images/logo_lit.png");
+	height: 23px;
+	width:100px;
+	display: inline-block;
+}
+.footera li.item{
+	margin-right: 30px;
+}
+.footera li.item a{
+	color: #dddddd;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.chunka{
+	background: url("../images/bg1.png");
+	height: 550px;
+	overflow: hidden;
+}
+.chunka .shreel_btn{
+	background: url("../images/shreel_btn.png");
+	height: 36px;
+	width: 150px;
+	display: inline-block;
+	margin-top: 25px;
+}
+.chunkb{
+	padding: 50px 100px;
+	line-height: 1.5;
+}
+.chunkb .head .title{
+	padding: 39px 0px;
+	font-size: 27px;
+}
+.chunkb .arrow{
+	background: url("../images/arrow.png") no-repeat;
+	height: 260px;
+	width: 258px;
+	padding-bottom: 46px;
+}
+.chunkb .content{
+	border-top: 2px solid #ccc;
+	padding: 50px;
+}
+.chunkb .content .group li{
+	display: inline-block;
+	width: 244px;
+	
+}
+.chunkb .content .group li.m{
+	margin-right: 78px;
+}
+.chunkb .content .title{
+	color: #25CE9E;
+}
+
+.chunkb  .foot .btn{
+	background: url("../images/chunb_btn.png");
+	width: 266px;
+	height: 49px;
+	display: inline-block;
+}
+
+.chunkc{
+	width: 1198px;
+	height: 1241px;
+	background: #eee;
+	padding: 128px 100px;
+	box-sizing: border-box;
+}
+.chunkc .content .group{
+	display: inline-block;
+	height: 491px;
+	width: 499px;
+	text-align: center;
+	padding-top: 298px;
+	box-sizing: border-box;
+}
+.chunkc .content .group.a{
+	color: #fff;
+	background: url("../images/chunkc_1.png");
+}
+.chunkc .content .group.b{
+	color: #1c3e58;
+	background: url("../images/chunkc_2.png");
+}
+.chunkc .content .group.c{
+	color: #1c3e58;
+	position: relative;
+	top:-10px;
+	background: url("../images/chunkc_3.png");
+}
+.chunkc .content .group.d{
+	color: #fff;
+	position: relative;
+	top:-10px;
+	background: url("../images/chunkc_4.png");
+}
+.chunkc .content .title{
+	font-size: 27px;
+	line-height: 1.5;
+	letter-spacing: -0.6px;
+}
+.chunkc .content .word{
+	font-size: 20px;
+	line-height: 1.5;
+	padding: 0px 50px;
+}
+.joinus_container{
+	background: #F5F5F5;
+	padding: 90px 100px;
+	text-align: center;
+}
+.joinus_container .bg2{
+	background: url("../images/joinus_bg.png");
+	margin:0px auto;
+	height: 220px;
+	width:606px;
+}
+.joinus_container .panel{
+	height: 640px;
+	padding: 40px 85px;
+	background: #fff;
+	box-sizing: border-box;
+}
+.fb_btn{
+	display: inline-block;
+	background:url("../images/fb_btn.png");
+	height: 37px;
+	width: 166px;
+}
+.tw_btn{
+	display: inline-block;
+	background:url("../images/tw_btn.png");
+	height: 37px;
+	width: 166px;
+}
+.send_btn{
+	display: inline-block;
+	background: url("../images/send_btn.png");
+	height: 44px;
+	width: 181px;
+}
+.joinus_container .title{
+	font-size: 36px;
+}
+.joinus_container .word{
+font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  color: #777777;
+}
+.joinus_container .btn_group{
+	margin-top: 20px;
+}
+.form input{
+  width: 405px;
+  height: 45px;
+  border: solid 1px #c8c8c8;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.form textarea{
+  width: 830px;
+  height: 165.6px;
+  background-color: #ffffff;
+  border: solid 1px #c8c8c8;
+  margin-bottom: 42px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.hidden{
+	display: none;
+}
+.container3{
+	background: #F5F5F5;
+	padding: 40px 0;
+	box-sizing: border-box;
+}
+.outer{
+	width: 633px;
+	margin: 0 auto;
+	text-align: center;
+}
+.outer .content{
+	background: #fff;
+	padding: 60px;
+	box-sizing: border-box;
+}
+.tab_menu li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	border-radius:5px;
+	background: #eee; 
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+.tab_menu li:hover{
+	background:#ffd102;
+	cursor: pointer;
+	color: #fff;
+}
+.tab_menu li:active{
+	background:#ffd102;
+	cursor: pointer;
+	color: #fff;
+}
+.tab_menu li.active{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	background-color: #ffd102;
+}
+
+
+.outer .content input,.outer .content textarea{
+	padding-left:17px;
+	margin-top: 20px;
+	border: solid 1px #c8c8c8;
+	box-sizing: border-box;
+}
+.outer .content input.big{	 
+	width: 499.6px;
+	height: 45px;
+}
+.outer .content input.lit{
+	height: 45px;
+}
+.outer .content textarea{
+	padding-top:5px;
+	width: 499.6px;
+	height: 183.7px;
+}
+
+.bg_go{
+	height: 573px;
+	width: 118px;
+	background: url("../images/tab3_bg.png");
+}
+
+
+
+
+
+
